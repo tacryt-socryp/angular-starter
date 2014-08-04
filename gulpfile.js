@@ -35,7 +35,7 @@ gulp.task("styles", function () {
 });
 
 gulp.task("images", function (){
-  gulp.src(["./**/*.jpg", "./**/*.jpeg", "./**/*.png", "./**/*.gif"])
+  gulp.src(["./images/*"])
   .pipe(gulp.dest(imgDir))
 });
 

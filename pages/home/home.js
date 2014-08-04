@@ -5,7 +5,8 @@ module.exports = function (ngModule) {
     function ($stateProvider) {
 
       $stateProvider.state("home", {
-        url: "/",
+        url: "/angular-starter/",
+        //url: "/", //For production
         controller: require("./controllers/home.ctrl.js"),
         template: require("./templates/home.jade")
       });
