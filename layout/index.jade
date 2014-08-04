@@ -1,0 +1,15 @@
+doctype html
+html#ng-app(class="ng-app:starter", ng-app="starter", xmlns:ng="http://angularjs.org", lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="description", content="Hackathon starter for AngularJS")
+    meta(name="viewport", content="width=device-width")
+    link(rel="shortcut icon", href="/img/favicon.ico")
+    link(rel="stylesheet", href="css/app.css")
+    script(type="text/javascript", src="js/app.js")
+    title Starter
+
+  body
+    include ./header.jade
+    ui-view(ng-controller="app:layout")

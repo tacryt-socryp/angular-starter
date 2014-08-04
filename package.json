@@ -1,0 +1,35 @@
+{
+  "name": "starter",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Angular Hackathon Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/loganallenc/starter.git"
+  },
+  "author": "Logan Allen <loganallc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loganallenc/starter/issues"
+  },
+  "homepage": "https://github.com/loganallenc/starter",
+  "dependencies": {
+    "angular": "1.2.19",
+    "angular-resource": "0.1.1",
+    "angular-ui-router": "0.2.10",
+    "gulp": "3.8.7"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "gulp-browserify": "*",
+    "gulp-concat": "*",
+    "gulp-jade": "*",
+    "gulp-rename": "*",
+    "jade": "*",
+    "jadeify": "*"
+  }
+}
