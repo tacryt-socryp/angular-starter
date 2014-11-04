@@ -51,7 +51,7 @@ header > nav > a:hover {
   border-bottom:2px solid #fff;
 }
 
-article {
+.content {
   background-color: #fff;
   color:#222;
   border: 1px solid #ccc;
